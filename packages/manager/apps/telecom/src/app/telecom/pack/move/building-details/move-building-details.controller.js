@@ -39,13 +39,9 @@ export default class MoveBuildingDetailsCtrl {
         );
       }
 
-      const params = {
-        building: building.buildingReference,
-      };
-
       this.OvhApiConnectivityEligibilitySearch.v6()
-        .buildingDetails({}, params)
-        .$promise.then((buildingDetails) => {
+        .pollerBuildingDetails(this.$scope, { building: building.reference })
+        .then((buildingDetails) => {
           if (has(buildingDetails, 'result.stairs')) {
             this.buildings[
               i
@@ -150,12 +146,11 @@ export default class MoveBuildingDetailsCtrl {
         !this.model.selectedBuilding.stairs ||
         this.model.selectedBuilding.stairs.length === 0
       ) {
-        const params = {
-          building: this.model.selectedBuilding.buildingReference,
-        };
         this.OvhApiConnectivityEligibilitySearch.v6()
-          .buildingDetails({}, params)
-          .$promise.then((buildingDetails) => {
+          .pollerBuildingDetails(this.$scope, {
+            building: this.model.selectedBuilding.reference,
+          })
+          .then((buildingDetails) => {
             if (has(buildingDetails, 'result.stairs')) {
               if (buildingDetails.result.stairs.length === 0) {
                 const stairModel = this.defaultStairsModel();
