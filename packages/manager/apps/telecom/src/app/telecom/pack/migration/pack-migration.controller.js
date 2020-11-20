@@ -44,8 +44,9 @@ export default class TelecomPackMigrationCtrl {
           // Display offers
           this.process.currentStep = 'offers';
 
-          return this.getPackAccess();
+          this.getPackAccess();
         }
+        return this.process;
       })
       .catch((error) => {
         const msgErr = `${this.$translate.instant(
