@@ -1,3 +1,47 @@
+## [15.8.1](https://github.com/ovh/manager/compare/@ovh-ux/manager-web@15.8.0...@ovh-ux/manager-web@15.8.1) (2020-12-14)
+
+
+### Bug Fixes
+
+* **domain.dashboard.webhosting-enable:** display error message info ([#4162](https://github.com/ovh/manager/issues/4162)) ([9901e60](https://github.com/ovh/manager/commit/9901e608bd7eb422ac1e1732fea512549de1bff1))
+
+
+
+# [15.8.0](https://github.com/ovh/manager/compare/@ovh-ux/manager-web@15.7.3...@ovh-ux/manager-web@15.8.0) (2020-12-08)
+
+
+### Bug Fixes
+
+* **domain.validator:** allow underscore in CNAME ([#4091](https://github.com/ovh/manager/issues/4091)) ([5cd8783](https://github.com/ovh/manager/commit/5cd87836ee63bae9934e311f363b33fb91679ce5))
+* **domain.zone.record:** set the SPF value according current region ([#4133](https://github.com/ovh/manager/issues/4133)) ([daf8526](https://github.com/ovh/manager/commit/daf8526f327f0480a70fe34d587c3a80ab165ebf))
+* **i18n:** add missing translations [CDS 685] ([6d69dc6](https://github.com/ovh/manager/commit/6d69dc69b27f9769ed955e1917f7d8d05267f292))
+* **i18n:** add missing translations [CDS 693] ([cc4fafa](https://github.com/ovh/manager/commit/cc4fafad05f59ecab600247686b99e7780039b28))
+
+
+### Features
+
+* set application in feature flipping ([#4124](https://github.com/ovh/manager/issues/4124)) ([365a35b](https://github.com/ovh/manager/commit/365a35babe4641131622ff0122160bb7d5198f92))
+
+
+
+## [15.7.3](https://github.com/ovh/manager/compare/@ovh-ux/manager-web@15.7.2...@ovh-ux/manager-web@15.7.3) (2020-12-02)
+
+
+### Bug Fixes
+
+* **private-database.order.clouddb:** fix typo [skip ci] ([9b7b3d2](https://github.com/ovh/manager/commit/9b7b3d2e02c070376358e68f9361180650387b32)), closes [#4120](https://github.com/ovh/manager/issues/4120)
+
+
+
+## [15.7.2](https://github.com/ovh/manager/compare/@ovh-ux/manager-web@15.7.1...@ovh-ux/manager-web@15.7.2) (2020-12-01)
+
+
+### Bug Fixes
+
+* **domain.zone:** allow zone deletion attached to web hosting ([#4111](https://github.com/ovh/manager/issues/4111)) ([cfd7eb2](https://github.com/ovh/manager/commit/cfd7eb2cacaa352c028c1265e792b3e1519218e7))
+
+
+
 ## [15.7.1](https://github.com/ovh/manager/compare/@ovh-ux/manager-web@15.7.0...@ovh-ux/manager-web@15.7.1) (2020-11-25)
 
 

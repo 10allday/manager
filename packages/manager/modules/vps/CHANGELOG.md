@@ -1,3 +1,40 @@
+## [2.2.10](https://github.com/ovh/manager/compare/@ovh-ux/manager-vps@2.2.9...@ovh-ux/manager-vps@2.2.10) (2020-12-08)
+
+
+### Bug Fixes
+
+* **dashboard:** remove deprecated status tile ([#4087](https://github.com/ovh/manager/issues/4087)) ([5fb936c](https://github.com/ovh/manager/commit/5fb936ce44383784b8d32c901b354356d7a6171d))
+
+
+
+## [2.2.9](https://github.com/ovh/manager/compare/@ovh-ux/manager-vps@2.2.8...@ovh-ux/manager-vps@2.2.9) (2020-12-07)
+
+
+### Bug Fixes
+
+* **upscale:** allow upgrades for starter ([#4144](https://github.com/ovh/manager/issues/4144)) ([18fdbfa](https://github.com/ovh/manager/commit/18fdbfa89f4f9c1a2306e368c86ca98ce455bdb6))
+
+
+
+## [2.2.8](https://github.com/ovh/manager/compare/@ovh-ux/manager-vps@2.2.7...@ovh-ux/manager-vps@2.2.8) (2020-12-03)
+
+
+### Bug Fixes
+
+* **upscale:** use price from catalog ([#4129](https://github.com/ovh/manager/issues/4129)) ([613bb85](https://github.com/ovh/manager/commit/613bb85b6f31ef8925f5306c45a5828d5b0e1855))
+
+
+
+## [2.2.7](https://github.com/ovh/manager/compare/@ovh-ux/manager-vps@2.2.6...@ovh-ux/manager-vps@2.2.7) (2020-12-01)
+
+
+### Bug Fixes
+
+* check ftpBackup is defined ([a47ff4b](https://github.com/ovh/manager/commit/a47ff4b9553625b71cf95afaf1563e5ad1df7d69))
+* **dashboard:** use catalog to get current price ([fc712b9](https://github.com/ovh/manager/commit/fc712b9adfd30d5597d395b96638463ecabe180b))
+
+
+
 ## [2.2.6](https://github.com/ovh/manager/compare/@ovh-ux/manager-vps@2.2.5...@ovh-ux/manager-vps@2.2.6) (2020-11-26)
 
 
